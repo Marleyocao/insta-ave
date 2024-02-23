@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header img{
+    width: 80px;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    gap: 1000px;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tres-imagens img {
+    width: 400px;
+    height: 640px;
+
+}
+.duas-imagens img{
+    width: 600px;
+    height: 640px;
+
+}
+.uma-imagem img{
+    width: 1200px;
+    height: 640px;
+}
